@@ -51,7 +51,7 @@ async function showCity(position) {
 
 const getWeatherData = async (location) => {
   const response = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=93ca21f937aa49b9bcb194101241106&q=${location}&days=3`
+    `https://api.weatherapi.com/v1/forecast.json?key=93ca21f937aa49b9bcb194101241106&q=${location}&days=3`
   );
   if (!response.ok && response.status != 200) {
     console.log("Error");
