@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 11 - JavaScript - Weather App</title>
+
+    <!-- ================= Fonts ==================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ================= Css Files ================ -->
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style..css" />
+  </head>
+  <body>
+    <!-- ============= Navbar ================= -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a
+          class="navbar-brand d-flex align-items-center row-gap-2 justify-content-center"
+          href="../index.html"
+        >
+          <img src="../images/weather-app-logo.png" alt="Logo" />
+          <div>
+            <h1>Weather</h1>
+            <span>tagline goes here</span>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-5">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">news</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">photo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./contact.html">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ========== Breadcrumb =============== -->
+    <section class="contact-header">
+      <div class="container">
+        <div aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========== Contact Form =============== -->
+    <section class="contact-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="info">
+              <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55251.378094222026!2d31.217264594617305!3d30.059482028200883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1718402164140!5m2!1sen!2seg"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div class="data">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="data-item">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <p>
+                        Company Name INC.
+                        <br />
+                        2803 Avenue Street, Los Angeles
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <a href="" class="data-item">
+                      <i class="fa-solid fa-phone"></i>
+                      <p>+20 11 56636141</p>
+                    </a>
+                  </div>
+
+                  <div class="col-md-6">
+                    <a href="" class="data-item">
+                      <i class="fa-solid fa-envelope"></i>
+                      <p>mo7mednedal@gmail.com</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="form">
+              <div class="form-title">
+                <h1>Contact us</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Commodi consectetur inventore ducimus, facilis, numquam id
+                  soluta omnis eius recusandae nesciunt vero repellat harum cum.
+                  Nisi facilis odit hic, ipsum sed!
+                </p>
+              </div>
+
+              <form action="">
+                <div class="row">
+                  <div class="col-md-6">
+                    <fieldset>
+                      <input
+                        type="text"
+                        name="name"
+                        placeholder="Your Name..."
+                      />
+                    </fieldset>
+                  </div>
+
+                  <div class="col-md-6">
+                    <fieldset>
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="Your Email..."
+                      />
+                    </fieldset>
+                  </div>
+
+                  <div class="col-md-6">
+                    <fieldset>
+                      <input
+                        type="text"
+                        name="company-name"
+                        placeholder="Company Name..."
+                      />
+                    </fieldset>
+                  </div>
+
+                  <div class="col-md-6">
+                    <fieldset>
+                      <input
+                        type="url"
+                        name="website"
+                        placeholder="Website..."
+                      />
+                    </fieldset>
+                  </div>
+
+                  <div class="col-12">
+                    <fieldset>
+                      <textarea
+                        name="message"
+                        placeholder="Message..."
+                      ></textarea>
+                    </fieldset>
+                  </div>
+
+                  <button type="submit">send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Footer ============== -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-xs-12">
+            <div class="send-email position-relative">
+              <input
+                type="text"
+                name="send-email"
+                placeholder="Enter Your Email to Subscribe..."
+              />
+              <button>subscribe</button>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-xs-12">
+            <div class="social-links">
+              <a href="">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-google-plus"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-pinterest"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="copyright">
+              <p>
+                Copyright 2024 . Designed by Mohamed Nedal. All rights reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ============== JavaScript Files ================= -->
+    <script src="../js/bootstrap.bundle.js"></script>
+  </body>
+</html>
